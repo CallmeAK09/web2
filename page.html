@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="shortcut icon" href="images/Spotify_icon.svg.png" type="image/x-icon"><title>Soptify - Web Player:Music for everyone</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logodiv">
+                <img class="logo" src="images/spotify-icon-2048x2048-t9h6l18f.png">
+            </div>
+
+            <div class="hsbar">
+                <button id="homebtn">
+                    <i class="fa-solid fa-house"></i>
+                </button>
+                <div class="innerhs">
+                    <div class="lens">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" class="search" placeholder="What do you wanna play?">
+                    <div class="browse">
+                        <button id="bbtn"><i class="fa-solid fa-file"></i></button>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="leftnav">
+                <button class="button">Premium</button>
+                <button class="button">Support</button>
+                <button class="button">Download</button>
+                <span id="line"></span>
+                <button id="install"> <i class="fa-solid fa-arrow-down"></i>Install App</button>
+                <button id="signup">Signup</button>
+                <button id="login">Login</button>
+            </div>
+ 
+        </div>
+    </header>
+    <main>
+        <!-- Side potion -->
+        <div class="sidepart">
+            <div class="library">Your Library</div>
+            <div class="scrollbar">
+                <div class="option">
+                    <h1>Creat your first playlist</h1>
+                    <p>It's easy,we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="option">
+                    <h1>Let's find some podcast to follow</h1>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button>Browse podcast</button>
+                </div>
+            </div>
+            <div class="bottomside">
+                <ul>
+                    <li>
+                        <a href="#">Legal</a>
+                        <a href="">Safety&Policy Center</a> 
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                        <a href="">Acessibility</a>
+                    </li>
+                    <li>
+                        <a href="" id="cookies">Cookies</a>
+                    </li>
+                </ul>
+            </div>
+            <button id="english"><i class="fa-solid fa-globe"></i>  English</button>
+        </div>
+        <!-- content portion -->
+        <div class="content">
+            <h1>Trending Songs</h1>
+            <div class="card">
+                <div class="song">
+                    <img src="images/Songs/Song1.jpg">
+                    <h2>Courtside</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song2.jpg">
+                    <h2>Jhol-Acoustic</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song3.jpg">
+                    <h2>Minnalvala(From "Narivetta")</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song4.jpg">
+                    <h2>STFU</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song5.jpg">
+                    <h2>Pretty Lady Baby-Sterio Mix</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song6.jpg">
+                    <h2>Shaky</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song7.jpg">
+                    <h2>Laal Pari(From "Housefull 5)</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Songs/song8.jpg">
+                    <h2>Qatal</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+            </div>
+        
+            <h1>Artists</h1>
+            <div class="card">
+                <div class="artist">
+                        <img  class="round"src="images/Artists/artist1.jpg">
+                    <h2>A.R.Rahman</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                        <img class="round" src="images/Artists/artist2.jpg">
+                    <h2>Anirudh Ravichander</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                        <img  class="round"src="images/Artists/artist3.jpg">
+                    <h2>Yo Yo Honey Singh</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                        <img class="round" src="images/Artists/artist4.jpg">
+                    <h2>Udit Narayan</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                        <img  class="round" src="images/Artists/artist5.jpg">
+                    <h2>Arijith Singh</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                    <div class="round">
+                        <img class="round" src="images/Artists/artist6.jpg">
+                    </div>
+                    
+                    <h2>Amit Trivedi</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                        <img class="round" src="images/Artists/artist7.jpg">
+                    <h2>Shreya Ghoshal</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                        <img class="round" src="images/Artists/artist8.jpg">
+                    <h2>Alka Yagnik</h2>
+                    <p>Artist</p>
+                </div>
+            </div>
+            <h1>For You</h1>
+            <div class="card">
+                <div class="song">
+                    <img src="images/Foryou/my1.jpg">
+                    <h2>Muhal Nee Mudivum Nee(Fro..</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my2.jpg">
+                    <h2>STAR WALKIN'(Le..</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my3.jpg">
+                    <h2>Illathe Kallyaanathinu(Ver..</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my4.jpg">
+                    <h2>Dandalions</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my5.jpg">
+                    <h2>Orasadha-Madras Gig</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my6.jpg">
+                    <h2>Dhadak-Title Track</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my7.jpg">
+                    <h2>Spring Snow</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+                <div class="song">
+                    <img src="images/Foryou/my8.jpg">
+                    <h2>SLAVA Funk</h2>
+                    <p>Artist 1, Artist 2</p>
+                </div>
+            </div>
+
+            <h1>Podcasts</h1>
+            <div class="card">
+                <div class="song">
+                    <img src="images/Podcasts/pod1.jpg">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <h2>TED Talk Daily</h2>
+                    <p>TED</p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod2.jpg">
+                    <h2>Raj Shamani's Figuring Out</h2>
+                    <p>Raj shamani</p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod3.jpg">
+                    <h2>The Desi Crime Podcast</h2>
+                    <p>Desi Studios </p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod4.jpg">
+                    <h2>Best Love Stories</h2>
+                    <p>Spotify Studios</p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod5.jpg">
+                    <h2>Global News Podcast</h2>
+                    <p>BBc World Service</p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod6.jpg">
+                    <h2>Druv Rathee</h2>
+                    <p>Druv Rathee</p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod7.jpg">
+                    <h2>Club FM Kerala</h2>
+                    <p>Club FM Kerala</p>
+                </div>
+                <div class="song">
+                    <img src="images/Podcasts/pod8.jpg">
+                    <h2>Diary Kurippukal</h2>
+                    <p>Diary Kurippukal</p>
+                </div>
+            </div>
+            
+        <div class="bottompart">
+            <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Community</th>
+                        <th>Usefull links</th>
+                        <th>Spotify Plans</th>
+                        <th>
+                            <div class="social">
+                                <button><i class="fa-brands fa-instagram"></i></button>
+                                <button><i class="fa-brands fa-twitter"></i></button>
+                                <button><i class="fa-brands fa-facebook"></i></button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>About</td>
+                        <td>For Artists</td>
+                        <td> Support</td>
+                        <td> Premium Individual</td>
+                    </tr>
+                    <tr>
+                        <td>Jobs</td>
+                        <td>Developers</td>
+                        <td>Free Mobile App</td>
+                        <td>Premium Duo</td>
+                    </tr>
+                    <tr>
+                        <td>For the record</td>
+                        <td>Advertising</td>
+                        <td></td>
+                        <td>PremiumFamily</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Investors</td>
+                        <td></td>
+                        <td>PremiumStudent</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Vendors</td>
+                        <td></td>
+                        <td>Spotify free</td>
+                    </tr>
+                    
+            </table>
+            <div id="copyright">
+                <p> <i class="fa-regular fa-copyright"> </i>2025 Spotify AB</p>
+            </div>
+            
+            
+        </div>
+        </div>
+            
+        <!-- preview portion -->
+         
+        <div class="preview">
+            <div>
+                <h4>Preview of spotify</h4>
+                <p>signup to get unlimited songs and podcasts with ocational ads. No credit card needed</p>
+            </div>
+            <div>
+                 <button>
+                Sign up for free
+            </button>
+            </div>
+           
+
+        </div>
+
+    </main>
+        
+    
+</body>
+</html>
